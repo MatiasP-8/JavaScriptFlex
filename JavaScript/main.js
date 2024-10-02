@@ -4,7 +4,7 @@ let cantProductos = 0;
 
 const agregarProductos = ()=>{
     let carrito = [];
-    alert('Selecione el producto que desea comprar');
+    alert('Seleccione el producto que desea comprar');
 
     do{
         productos = parseInt(prompt('1 (Camiseta) - 2 (Short) - 3 (Medias) - 0 (Finalizar Compra)'));
