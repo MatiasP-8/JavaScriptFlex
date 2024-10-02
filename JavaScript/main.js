@@ -3,26 +3,38 @@ let productos;
 
 const agregarProductos = ()=>{
     let carrito = [];
+    alert('Selecione el producto que desea comprar');
 
-    while(productos != '0'){
+    do{
+        productos = prompt('1 (Camiseta) - 2 (Short) - 3 (Medias) - 0 (Finalizar Compra)' );
 
-        //Pido los valores y los agrego al array vacio mediante el metodo push
-        productos = prompt('Ingrese los productos - ingrese 0 para terminar');
+    if(productos === '1'){
+        carrito.push('Camiseta');
         
-
-        //valido si no agrega ningun producto y le envio un mensaje de error
-        if(productos === ''){
-            alert('No agregaste ningun producto');
-        }
+    }else if(productos === '2'){
+        carrito.push('Short')
+    }else if(productos === '3'){
+        carrito.push('Medias');
         
+    }else if(productos === '0'){
+        break;
+        
+    }else{
 
-        //Condicional para que no me agregue el 0 a la lista al cerrar el bucle
-        if(productos != '0' && productos != ''){
-        carrito.push(productos);
+            alert('Por favor ingrese un producto valido');
         }
-    }
 
-    alert('Los productos son: ' + carrito);
+    }while(productos != '0');
+
+        if(carrito.length === 0){
+            alert('El carrito esta vacio');
+        }else{
+
+            alert('Los productos son: ' + carrito.join('-'));
+        }
+
 }
 
 agregarProductos();
+
+
