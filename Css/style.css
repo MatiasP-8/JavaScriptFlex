@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-link{
+        text-decoration: none;
+        font-weight: 600;
+        margin: 0 3px;
+        color: black;
+        font-family: "Onest", sans-serif;
+        font-size: 16px;
+}
+
+.nav-link svg{
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+        color: #3879E5;
+}
+
+.imgFondo{
+    width: 100%; /* O el ancho que necesites */
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    background-image: url(../img/fondoRetro.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.productosContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.productosContainer .titleProductos{
+    margin: 25px;
+    color: black;
+    font-size: 2.3rem;
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+.cardProductosContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cardProductosContainer .card{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 400px;
+    height: 450px;
+}
+
+.cardProductosContainer .card img{
+    width: 300px;
+    height: 300px;
+}
+
+.cardProductosContainer .card .cardInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:  left;
+    align-items: left;
+    text-align: left;
+}
+
+.cardProductosContainer .card .cardInfoContainer h3{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Onest', sans-serif;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+.cardProductosContainer .card .cardInfoContainer .precio{
+    color: rgb(72, 71, 71);
+    font-size: 1rem;
+    font-family: 'Onest', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+.cardProductosContainer .card .cardInfoContainer .descripcion{
+    color: black;
+    font-size: 1rem;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+
+button{
+    text-align: center;
+    width: 180px;
+    height: 35px;
+    margin: 5px 0;
+    border-radius: 1px;
+    border: 1px solid white;
+    outline: none;
+    background-color: #3E8CC0;
+}
+
+button  a{
+    font-family: 'onest', sans-serif;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+

@@ -1,44 +1,69 @@
 
-let productos;
-let cantProductos = 0;
+const productos = [
+    {   
+        imagen:"./img/messiretro.png",
+        titulo: 'Remera Lionel Messi retro',
+        descripcion:'Descripcion',
+        precio: 30000
+    },
 
-const agregarProductos = ()=>{
-    let carrito = [];
-    alert('Seleccione el producto que desea comprar');
+    {
+        imagen:"./img/messi2.png",
+        titulo: 'Remera Lionel Messi retro',
+        descripcion:'Descripcion',
+        precio: 40000
+    },
+    {
+        imagen:"./img/cristiano.png",
+        titulo: 'Remera Cristiano Ronaldo retro',
+        descripcion:'Descripcion',
+        precio: 10000
+    }, {
+        imagen:"./img/inter.png",
+        titulo: 'Remera Inter de Milan retro',
+        descripcion:'Descripcion',
+        precio: 20000
+    }, {
+        imagen:"./img/arsenal.png",
+        titulo: 'Remera Arsenal retro',
+        descripcion:'Descripcion',
+        precio: 20000
+    },
+    {
+        imagen:"./img/kaka.png",
+        titulo: 'Remera Kaka retro',
+        descripcion:'Descripcion',
+        precio: 30000
+    },
 
-    do{
-        productos = parseInt(prompt('1 (Camiseta) - 2 (Short) - 3 (Medias) - 0 (Finalizar Compra)'));
+]
 
-    if(productos ===  1){
-        cantProductos++
-        carrito.push('Camiseta');
+
+const contenedorProductos = document.querySelector('#contenedorProductos'); //Div contenedor de las cards
+
+//Creo una funcion para cargar los productos en base al array de objetos que hice arriba
+function crearProductos(){
+    productos.forEach(producto => {
+        const div = document.createElement('div');
+        div.classList.add('card'); //Le agrego la clase card al div para usar los estilos de css
+        div.innerHTML  = `
         
-    }else if(productos === 2){
-        cantProductos++
-        carrito.push('Short')
-    }else if(productos === 3){
-        cantProductos++
-        carrito.push('Medias');
-        
-    }else if(productos === 0){
-        break;
-        
-    }else{
+                        <img src="${producto.imagen}" alt="Imagen de Ropa"> 
+                        <div class="cardInfoContainer">
+                        <h3>${producto.titulo}</h3>
+                        <p class="precio">${producto.precio}</p>
+                        <p class="descripcion">${producto.descripcion}</p>
+                        <button><a href="">Agregar al Carrito</a></button>
+                    </div>
 
-            alert('Por favor ingrese un producto valido');
-        }
+        `;
 
-    }while(productos != 0);
+        contenedorProductos.appendChild(div); //Agrego el div al contenedor en el padre
 
-        if(carrito.length === 0){
-            alert('El carrito esta vacio');
-        }else{
-
-            alert('Son: ' + cantProductos + ' productos ' + ' ' + '=>' + carrito.join(' ') );
-        }
+    });
 
 }
+crearProductos(); 
 
-agregarProductos();
 
 
