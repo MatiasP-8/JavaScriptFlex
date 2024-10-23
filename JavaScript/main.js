@@ -51,7 +51,7 @@ const contenedorProductos = document.querySelector('#contenedorProductos'); //Di
 function crearProductos(){
     productos.forEach(producto => {
         const div = document.createElement('div');
-        div.classList.add('card'); //Le agrego la clase card al div para usar los estilos de css
+        div.classList.add('cards'); //Le agrego la clase card al div para usar los estilos de css
         div.innerHTML  = `
         
                         <img src="${producto.imagen}" alt="Imagen de Ropa"> 
@@ -73,19 +73,19 @@ crearProductos();
 
 
 // funcion hover para desplegable de carrito
-const carritoIcon = document.getElementById('carritoIcon');
+// const carritoIcon = document.getElementById('carritoIcon');
 
 
 
-carritoIcon.addEventListener('mouseover', mostrarMenu);
+// carritoIcon.addEventListener('mouseover', mostrarMenu);
 
-function mostrarMenu(){
-    if(!carritoMenu.classList.contains('active')){
-        carritoMenu.classList.toggle('active');
-    }else if(carritoMenu.classList.contains('active')){
-        carritoMenu.classList.toggle('active');
-    }
-}    
+// function mostrarMenu(){
+//     if(!carritoMenu.classList.contains('active')){
+//         carritoMenu.classList.toggle('active');
+//     }else if(carritoMenu.classList.contains('active')){
+//         carritoMenu.classList.toggle('active');
+//     }
+// }    
 
 
 
@@ -98,10 +98,13 @@ for (botones of botonAgregarProducto){
     botones.addEventListener('click', agregarProducto);
 }
 
-
-function agregarProducto(){
-
-    console.log('click para agregar');
+const productosAgregados = [];
+function agregarProducto(e){
+    const id = e.currentTarget.idProducto;
+    const productoCarrito = productos.find(producto => producto.idProducto === id);
+    
+    productosAgregados.push[productoCarrito];
+    console.log(productosAgregados);
 }
 
 
