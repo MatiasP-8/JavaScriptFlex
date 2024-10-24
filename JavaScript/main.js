@@ -1,7 +1,7 @@
 
 const productos = [
     {   idProducto: 'Producto 1',
-        imagen:"./img/messiretro.png",
+        imagen:"./img/messiRetro.png",
         titulo: 'Remera Lionel Messi retro',
         descripcion:'Descripcion',
         precio: 30000
@@ -92,21 +92,37 @@ crearProductos();
 // Agregar al carrito
 const botonAgregarProducto = document.getElementsByClassName('agregarProducto');
 
+
+//Evento click para los botones Agregar
 for (const boton of botonAgregarProducto) {
     boton.addEventListener('click', agregarProducto);
 }
 
-const productosAgregados = [];
+
+let productosAgregados;
+
+
+//Verifico si tengo productos en el localStorage y los agrego al array
+const productosEnElCarritoLocalStorage = JSON.parse(localStorage.getItem('productos-carrito'));
+
+if(productosEnElCarritoLocalStorage){
+    productosAgregados = productosEnElCarritoLocalStorage;
+}else{
+    productosAgregados = [];
+} 
 
 
 function agregarProducto(e){
     const id = e.currentTarget.id;
     const productoCarrito = productos.find(producto => producto.idProducto === id);
-    
-    productosAgregados.push(productoCarrito);
-    console.log(productosAgregados);
 
-    localStorage.setItem('Productos-carrito', JSON.stringify(productosAgregados));
+
+    //Agrego los productos al array productosAgregados
+    productosAgregados.push(productoCarrito);
+
+
+    //Agrego los productos al localStorage
+    localStorage.setItem('productos-carrito', JSON.stringify(productosAgregados));
 
 }
 
