@@ -57,7 +57,7 @@ function crearProductos(){
                         <img src="${producto.imagen}" alt="Imagen de Ropa"> 
                         <div class="cardInfoContainer">
                         <h3>${producto.titulo}</h3>
-                        <p class="precio">${producto.precio}</p>
+                        <p class="precio">$${producto.precio}</p>
                         <p class="descripcion">${producto.descripcion}</p>
                         <button class="agregarProducto" id="${producto.idProducto}" >Agregar Producto</button>
                     </div>
@@ -99,26 +99,23 @@ for (const boton of botonAgregarProducto) {
 }
 
 
-let productosAgregados;
 
-
-//Verifico si tengo productos en el localStorage y los agrego al array
-const productosEnElCarritoLocalStorage = JSON.parse(localStorage.getItem('productos-carrito'));
-
-if(productosEnElCarritoLocalStorage){
-    productosAgregados = productosEnElCarritoLocalStorage;
-}else{
-    productosAgregados = [];
-} 
-
+const productosAgregados = [];
 
 function agregarProducto(e){
     const id = e.currentTarget.id;
     const productoCarrito = productos.find(producto => producto.idProducto === id);
+    
+    if(productosAgregados.some(producto => producto.id === id)){
+       
+        const index = productosAgregados.findIndex(producto => producto.id === id);
 
-
-    //Agrego los productos al array productosAgregados
-    productosAgregados.push(productoCarrito);
+        productosAgregados[index].cantidad++;
+    }else{
+        productoCarrito.cantidad = 1;
+        //Agrego los productos al array productosAgregados
+        productosAgregados.push(productoCarrito);
+    }
 
 
     //Agrego los productos al localStorage
