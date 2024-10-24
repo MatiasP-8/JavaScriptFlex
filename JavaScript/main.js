@@ -1,6 +1,6 @@
 
 const productos = [
-    {   idProducto: 1,
+    {   idProducto: 'Producto 1',
         imagen:"./img/messiretro.png",
         titulo: 'Remera Lionel Messi retro',
         descripcion:'Descripcion',
@@ -8,34 +8,34 @@ const productos = [
     },
 
     {
-        idProducto: 2,
+        idProducto: 'Producto 2',
         imagen:"./img/messi2.png",
         titulo: 'Remera Lionel Messi retro',
         descripcion:'Descripcion',
         precio: 40000
     },
     {
-        idProducto: 3,
+        idProducto: 'Producto 3',
         imagen:"./img/cristiano.png",
         titulo: 'Remera Cristiano Ronaldo retro',
         descripcion:'Descripcion',
         precio: 10000
     }, {
-        idProducto: 4,
+        idProducto: 'Producto 4',
         imagen:"./img/inter.png",
         titulo: 'Remera Inter de Milan retro',
         descripcion:'Descripcion',
         precio: 20000
 
     }, {
-        idProducto: 5,
+        idProducto: 'Producto 5',
         imagen:"./img/arsenal.png",
         titulo: 'Remera Arsenal retro',
         descripcion:'Descripcion',
         precio: 20000
     },
     {
-        idProducto: 6,
+        idProducto: 'Producto 6',
         imagen:"./img/kaka.png",
         titulo: 'Remera Kaka retro',
         descripcion:'Descripcion',
@@ -92,26 +92,24 @@ crearProductos();
 // Agregar al carrito
 const botonAgregarProducto = document.getElementsByClassName('agregarProducto');
 
-
-//Uso el bucle for of para el evento de todos los botones para agrear al carrito
-for (botones of botonAgregarProducto){
-    botones.addEventListener('click', agregarProducto);
+for (const boton of botonAgregarProducto) {
+    boton.addEventListener('click', agregarProducto);
 }
 
 const productosAgregados = [];
+
+
 function agregarProducto(e){
-    const id = e.currentTarget.idProducto;
+    const id = e.currentTarget.id;
     const productoCarrito = productos.find(producto => producto.idProducto === id);
     
-    productosAgregados.push[productoCarrito];
+    productosAgregados.push(productoCarrito);
     console.log(productosAgregados);
+
+    localStorage.setItem('Productos-carrito', JSON.stringify(productosAgregados));
+
 }
 
-
-
-
-
-// }
 
 
 
