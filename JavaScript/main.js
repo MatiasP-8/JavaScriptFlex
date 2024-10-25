@@ -47,6 +47,8 @@ const productos = [
 
 const contenedorProductos = document.querySelector('#contenedorProductos'); //Div contenedor de las cards
 
+
+
 //Creo una funcion para cargar los productos en base al array de objetos que hice arriba
 function crearProductos(){
     productos.forEach(producto => {
@@ -99,7 +101,6 @@ for (const boton of botonAgregarProducto) {
 }
 
 
-
 const productosAgregados = [];
 
 function agregarProducto(e){
@@ -111,10 +112,12 @@ function agregarProducto(e){
         const index = productosAgregados.findIndex(producto => producto.id === id);
 
         productosAgregados[index].cantidad++;
+        //  cardModal.style.display = 'block';
     }else{
         productoCarrito.cantidad = 1;
         //Agrego los productos al array productosAgregados
         productosAgregados.push(productoCarrito);
+        //  cardModal.style.display = 'block';
     }
 
 
@@ -122,6 +125,9 @@ function agregarProducto(e){
     localStorage.setItem('productos-carrito', JSON.stringify(productosAgregados));
 
 }
+
+
+
 
 
 

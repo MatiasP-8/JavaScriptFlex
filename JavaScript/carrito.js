@@ -4,6 +4,7 @@ const productosEnElCarrito = JSON.parse(localStorage.getItem('productos-carrito'
 const contenedorCarrito = document.querySelector('#carritoCardsContainer');
 const carritoVacio = document.querySelector('#carritoVacio');
 let botonVaciarCarrito = document.querySelector('#vaciarCarrito');
+let botonComprar = document.querySelector('#comprar');
 
 if(productosEnElCarrito){
 
@@ -51,11 +52,16 @@ function verificarCarrito(){
     
     if (productosEnElCarrito.length === 0) {
         botonVaciarCarrito.style.display = 'none';
+        botonComprar.style.display = 'none'
+        
         carritoVacio.style.display = 'block'
     } else {
         botonVaciarCarrito.style.display = 'block'; 
+        botonComprar.style.display = 'block'
     }
 
 }
 
 verificarCarrito();
+
+
