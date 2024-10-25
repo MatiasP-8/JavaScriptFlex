@@ -90,6 +90,9 @@ crearProductos();
 // }    
 
 
+//Verifico en productos agregados si hay productos y los traigo, para que no se me pise al traer los otros y si no hay nada, dejo el array vacio
+
+const productosAgregados = JSON.parse(localStorage.getItem('productos-carrito')) || [];
 
 // Agregar al carrito
 const botonAgregarProducto = document.getElementsByClassName('agregarProducto');
@@ -101,15 +104,14 @@ for (const boton of botonAgregarProducto) {
 }
 
 
-const productosAgregados = [];
 
 function agregarProducto(e){
     const id = e.currentTarget.id;
-    const productoCarrito = productos.find(producto => producto.idProducto === id);
+    const productoCarrito = productos.find(producto => producto.idProducto === id); //Busco en productos, donde me coincidan los IDs
     
-    if(productosAgregados.some(producto => producto.id === id)){
+    if(productosAgregados.some(producto => producto.idProducto === id)){
        
-        const index = productosAgregados.findIndex(producto => producto.id === id);
+        const index = productosAgregados.findIndex(producto => producto.idProducto === id);
 
         productosAgregados[index].cantidad++;
         //  cardModal.style.display = 'block';
