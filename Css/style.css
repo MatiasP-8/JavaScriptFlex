@@ -431,3 +431,101 @@ ul{
     }
     
 
+
+    @media(max-width:720px){
+
+        .imgFondo{
+            width: 100%; 
+            height: 150px; 
+            background-image: url(../img/fondo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .productosContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .productosContainer .titleProductos{
+            margin: 50px 0 10px 0;
+            color: black;
+            font-size: 2rem;
+            font-family: 'Onest', sans-serif;
+            font-weight: 700;
+            text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+        }
+        
+        .parrafoSubtitulo{
+            color: brown;
+            font-size: .7rem;
+            font-family: 'Onest', sans-serif;
+            font-weight: bold;
+            text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
+        }
+        
+        .cardProductosContainer{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1,1fr);
+
+        }
+        
+        .cardProductosContainer .cards img{
+            width: 200px;
+            height: 200px;
+        }
+
+        .cardProductosContainer .cards .cardInfoContainer .descripcion{
+           display: none;
+        }
+
+        
+        .buttonAgregar{
+            text-align: center;
+            width: 150px;
+            height: 40px;
+        }   
+
+
+
+
+        footer .footerContainer{
+            gap: 10px;
+        }
+    
+        .footerContainer .logosContainer{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+    
+        .footerContainer svg{
+            width: 16px;
+            height: 16px;
+        }
+    
+
+    
+        .infoFooterContainer .titleFooter{
+            font-family: 'onest',sans-serif;
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+        }
+    
+    
+        .infoFooterContainer .subtitleFooter{
+            font-family: 'onest',sans-serif;
+            color: white;
+            font-weight: bold;
+            font-size: .7rem;
+            text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+            display: none;
+        }
+    }
