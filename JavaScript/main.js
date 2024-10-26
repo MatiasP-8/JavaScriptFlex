@@ -17,13 +17,13 @@ const productos = [
     {
         idProducto: 'Producto 3',
         imagen:"./img/cristiano.png",
-        titulo: 'Remera Cristiano Ronaldo retro',
+        titulo: 'Remera Ronaldo retro',
         descripcion:'Descripcion',
         precio: 10000
     }, {
         idProducto: 'Producto 4',
         imagen:"./img/inter.png",
-        titulo: 'Remera Inter de Milan retro',
+        titulo: 'Remera Inter retro',
         descripcion:'Descripcion',
         precio: 20000
 
@@ -61,7 +61,7 @@ function crearProductos(){
                         <h3>${producto.titulo}</h3>
                         <p class="precio">$${producto.precio}</p>
                         <p class="descripcion">${producto.descripcion}</p>
-                        <button class="agregarProducto" id="${producto.idProducto}" >Agregar Producto</button>
+                        <button class="buttonAgregar" id="${producto.idProducto}" >Agregar al carrito</button>
                     </div>
 
         `;
@@ -95,7 +95,7 @@ crearProductos();
 const productosAgregados = JSON.parse(localStorage.getItem('productos-carrito')) || [];
 
 // Agregar al carrito
-const botonAgregarProducto = document.getElementsByClassName('agregarProducto');
+const botonAgregarProducto = document.getElementsByClassName('buttonAgregar');
 
 
 //Evento click para los botones Agregar

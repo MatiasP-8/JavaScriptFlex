@@ -16,8 +16,8 @@ header{
 
 
 .logo img{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
     
 ul{
@@ -38,8 +38,8 @@ ul{
 }
 
 .nav-link svg{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ ul{
 .imgFondo{
     width: 100%; 
     height: 500px; 
-    background-image: url(../img/fondoRetro.webp);
+    background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -68,12 +68,20 @@ ul{
 }
 
 .productosContainer .titleProductos{
-    margin: 25px;
+    margin: 50px 0 10px 0;
     color: black;
     font-size: 2.3rem;
     font-family: 'Onest', sans-serif;
     font-weight: 700;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+    text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+}
+
+.parrafoSubtitulo{
+    color: brown;
+    font-size: 1.2rem;
+    font-family: 'Onest', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
 }
 
 .cardProductosContainer{
@@ -116,7 +124,7 @@ ul{
 }
 
 .cardProductosContainer .cards .cardInfoContainer .precio{
-    color: rgb(72, 71, 71);
+    color: goldenrod;
     font-size: 1rem;
     font-family: 'Onest', sans-serif;
     font-weight: bold;
@@ -132,24 +140,31 @@ ul{
 }
 
 
-button{
+.buttonAgregar{
     text-align: center;
-    width: 180px;
-    height: 35px;
+    width: 200px;
+    height: 40px;
     margin: 5px 0;
-    border-radius: 1px;
+    border-radius: 5px;
     border: 1px solid white;
     outline: none;
-    background-color: #3E8CC0;
+    background-color: darkgreen;
     font-family: 'onest', sans-serif;
     color: white;
     font-weight: 500;
     text-decoration: none;
+    transition: 1s;
+}
+
+.buttonAgregar:hover{
+    background-color: transparent;
+    border: 3px solid darkgreen;
+    color: darkgreen;
 }
 
 
-/*Estilado del carrito*/
 
+/*ESTILOS DEL CARRITO*/
 .carritoCardsContainer{
     width: 100%;
     margin: 60px 0;
@@ -157,21 +172,24 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    border-radius: 5px;
 }
 
 .carritoCardsContainer h1{
     font-family: 'onest',sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
+    text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
 }
 
 .carritoContainer{
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -179,9 +197,10 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f5f5f5;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    width: 80%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 70%;
+    margin: 8px 0;
 }
 
 .carritoContainer .cardCarrito .imgProducto img{
@@ -207,15 +226,14 @@ button{
         font-size: 1.2rem;
         font-family: 'Onest', sans-serif;
         font-weight: 800;
-        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+        text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
     }
     
     .carritoContainer .cardCarrito .cardInfoContainer .precio{
-        color: rgb(72, 71, 71);
+        color: goldenrod;
         font-size: 1rem;
         font-family: 'Onest', sans-serif;
         font-weight: bold;
-        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
     }
     
     .carritoContainer .cardCarrito .cardInfoContainer .descripcion{
@@ -223,7 +241,7 @@ button{
         font-size: 1rem;
         font-family: 'Onest', sans-serif;
         font-weight: 500;
-        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+        text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
     }
 
     .carritoCardsContainer .carritoVacio{
@@ -239,36 +257,6 @@ button{
         height: 25px;
     }
 
- /* .modalCardContainer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-
-    .modalCardContainer .cardModal{
-        width: 30%;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: #f5f5f5;
-        box-shadow: 10px 10px 10px solid black;
-        display: none;
-    }
-
-    .cardModal p{
-        color: black;
-        font-size: 1.5rem;
-        font-family: 'Onest', sans-serif;
-        font-weight: 500;
-        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
-    }
-
-    .cardModal svg{
-        color: green;
-    } */
 
     .contenedorTotales{
         width: 100%;
@@ -296,7 +284,7 @@ button{
     }
 
     .totalContainer .total span{
-        color: #3E8CC0;
+        color: goldenrod;
     }
 
 
@@ -315,6 +303,8 @@ button{
         border-radius: 5px;
         text-align: center;
         background-color: green;
+        border: none;
+        text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
     }
 
 
@@ -331,6 +321,8 @@ button{
         border-radius: 5px;
         background-color: red;
         text-align: center;
+        border: none;
+        text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
     }
 
 
@@ -341,6 +333,41 @@ button{
         text-decoration: none;
     }
 
+    .popUp {
+        display: none; 
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        text-align: center;
+    }
+
+    .popUp p{
+        color: black;
+        font-size: 1rem;
+        font-family: 'Onest', sans-serif;
+        font-weight: 500;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+    }
+
+    .popUp button{
+        width: 250px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: green;
+        border: none;
+        text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
+    }
+    .popUp button a{
+        text-decoration: none;
+        color: white;
+    }
 
     footer .footerContainer{
         width: 100%;
@@ -350,7 +377,7 @@ button{
         gap: 50px;
         height: 100px;
         margin-top: 60px;
-        background-color: #3E8CC0;
+        background-color: rgba(0, 0, 0, 0.2);
     }
 
     .footerContainer .logosContainer{
@@ -362,9 +389,20 @@ button{
     }
 
     .footerContainer svg{
-        width: 35px;
-        height: 35px;
-        color: white;
+        width: 30px;
+        height: 30px;
+    }
+
+    .whatsapp{
+        color: darkgreen;
+    }
+
+    .instagram{
+        color: purple;
+    }
+
+    .facebook{
+        color: darkblue;
     }
 
     .infoFooterContainer{
@@ -380,6 +418,7 @@ button{
         color: white;
         font-weight: bold;
         font-size: 1.5rem;
+        text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
     }
 
 
@@ -388,6 +427,7 @@ button{
         color: white;
         font-weight: bold;
         font-size: 1rem;
+        text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
     }
     
 

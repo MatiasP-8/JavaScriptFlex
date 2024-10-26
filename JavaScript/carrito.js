@@ -9,6 +9,7 @@ let botonVaciarCarrito = document.querySelector('#vaciarCarrito');
 let totalContenedor = document.querySelector('#totalContainer');
 const contenedorTotales = document.querySelector('#contenedorTotales');
 let botonComprar = document.querySelector('#comprar');
+let popUp = document.querySelector('#popUp')
 
 
 //Muestro los productos del localStorage
@@ -88,6 +89,15 @@ function actualizarTotal (){
     contenedorTotales.appendChild(div);
     
 } 
+
+botonComprar.addEventListener('click', comprar);
+
+
+function comprar(e){
+    e.preventDefault();
+    vaciar();
+    popUp.style.display = 'block';
+}
 
 
 
