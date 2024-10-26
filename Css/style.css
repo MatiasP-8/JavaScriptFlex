@@ -165,14 +165,23 @@ ul{
 
 
 /*ESTILOS DEL CARRITO*/
-.carritoCardsContainer{
+
+.carritoPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+}
+.carritoCardsContainer{
+    width: 60%;
     margin: 60px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .carritoCardsContainer h1{
@@ -183,13 +192,13 @@ ul{
 }
 
 .carritoContainer{
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color:white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
 }
 
 
@@ -369,7 +378,8 @@ ul{
         color: white;
     }
 
-    footer .footerContainer{
+    
+    .footerContainer{
         width: 100%;
         display: flex;
         justify-content: center;
@@ -377,7 +387,7 @@ ul{
         gap: 50px;
         height: 100px;
         margin-top: 60px;
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color:#FFFF ;
     }
 
     .footerContainer .logosContainer{
@@ -391,18 +401,7 @@ ul{
     .footerContainer svg{
         width: 30px;
         height: 30px;
-    }
-
-    .whatsapp{
-        color: darkgreen;
-    }
-
-    .instagram{
-        color: purple;
-    }
-
-    .facebook{
-        color: darkblue;
+        color: black;
     }
 
     .infoFooterContainer{
@@ -415,7 +414,7 @@ ul{
 
     .infoFooterContainer .titleFooter{
         font-family: 'onest',sans-serif;
-        color: white;
+        color: black;
         font-weight: bold;
         font-size: 1.5rem;
         text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
@@ -424,8 +423,8 @@ ul{
 
     .infoFooterContainer .subtitleFooter{
         font-family: 'onest',sans-serif;
-        color: white;
-        font-weight: bold;
+        color: black;
+        font-weight: 500;
         font-size: 1rem;
         text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
     }
@@ -489,6 +488,51 @@ ul{
             height: 40px;
         }   
 
+
+        /*ESTILOS DEL CARRITO*/
+
+
+.carritoCardsContainer h1{
+    font-size: 1.8rem;
+}
+
+.carritoCardsContainer{
+    width: 90%;
+}
+
+.carritoContainer .cardCarrito{
+    flex-direction: column;
+}
+
+.carritoContainer .cardCarrito .cardInfoContainer h3{
+        font-size: 1rem;
+    }
+    
+    
+    .carritoCardsContainer .carritoVacio{
+        font-size: 1.5rem;
+    }
+
+    .total{
+
+        font-size: 1.6rem;
+    }
+
+    .botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .comprar{
+        width: 150px;
+    }
+
+    .vaciarCarrito{
+        width: 150px;
+    }
 
 
 
