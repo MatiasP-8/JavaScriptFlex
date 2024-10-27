@@ -123,7 +123,7 @@ function agregarProducto(e){
     }
 
 
-    //Agrego los productos al localStorage
+    //Guardo los productos en localStorage
     localStorage.setItem('productos-carrito', JSON.stringify(productosAgregados));
 
 }

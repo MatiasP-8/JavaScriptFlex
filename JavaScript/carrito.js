@@ -12,7 +12,7 @@ let botonComprar = document.querySelector('#comprar');
 let popUp = document.querySelector('#popUp')
 
 
-//Muestro los productos del localStorage
+//Muestro los productos del localStorage 
 
 if(productosEnElCarrito){
 
@@ -47,6 +47,7 @@ if(productosEnElCarrito){
 
 botonVaciarCarrito.addEventListener('click', vaciar);
 
+//Funcion para vaciar el carrito
 
 function vaciar (){
 
@@ -59,7 +60,7 @@ function vaciar (){
 botonComprar.addEventListener('click',comprar);
 
 
-
+//Verifico que el carrito este vacio, si esta vacio saco los botones y muestro el total en 0 y el mensaje de 'Carrito vacio'
 function verificarCarrito(){
     
     if (productosEnElCarrito.length === 0) {
@@ -90,9 +91,12 @@ function actualizarTotal (){
     
 } 
 
+
 botonComprar.addEventListener('click', comprar);
 
 
+
+//Funcion para boton comprar-muestro el modal
 function comprar(e){
     e.preventDefault();
     vaciar();

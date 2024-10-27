@@ -157,9 +157,10 @@ ul{
 }
 
 .buttonAgregar:hover{
-    background-color: transparent;
+    scale: 1.01;
     border: 3px solid darkgreen;
-    color: darkgreen;
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -206,8 +207,7 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid rgba(75, 69, 69, 0.4);
     width: 70%;
     margin: 8px 0;
 }
@@ -387,7 +387,7 @@ ul{
         gap: 50px;
         height: 100px;
         margin-top: 60px;
-        background-color:#FFFF ;
+        background-color:#f5f5f5 ;
     }
 
     .footerContainer .logosContainer{
@@ -398,10 +398,32 @@ ul{
         gap: 25px;
     }
 
+    .footerContainer button{
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border:none;
+    }
+
     .footerContainer svg{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         color: black;
+        background-color: white;
+    }
+
+
+    #whatsapp{
+        color: darkgreen;
+    }
+
+    #instagram{
+        color: darkorchid;
+    }
+
+    #facebook{
+        color: darkblue;
     }
 
     .infoFooterContainer{
@@ -423,10 +445,10 @@ ul{
 
     .infoFooterContainer .subtitleFooter{
         font-family: 'onest',sans-serif;
-        color: black;
-        font-weight: 500;
-        font-size: 1rem;
-        text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+        color: brown;
+        font-weight: 700;
+        font-size: 1.1rem;
+        /* text-shadow: 1px 2px 5px rgba(0,0,0,0.6); */
     }
     
 
@@ -557,7 +579,7 @@ ul{
     
         .infoFooterContainer .titleFooter{
             font-family: 'onest',sans-serif;
-            color: white;
+            color: black;
             font-weight: bold;
             font-size: 1rem;
             text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
@@ -566,7 +588,7 @@ ul{
     
         .infoFooterContainer .subtitleFooter{
             font-family: 'onest',sans-serif;
-            color: white;
+            color: black;
             font-weight: bold;
             font-size: .7rem;
             text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
