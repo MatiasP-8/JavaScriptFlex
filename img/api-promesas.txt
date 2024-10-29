@@ -1,0 +1,527 @@
+00:38:17	Lautaro Mejias:	profe, en mi HTML se me agregaron algunas líneas pero porque use Bootstrap para que se vea mas bonito, hay algún problema con eso?
+00:38:18	Valentin Sierra:	yo me mame, y use bootstrap. me daba toc que no sea responsive 🫠
+00:38:57	Valentin Sierra:	se desaprueba, pero queda bonito
+00:39:04	Valentin Sierra:	ok no
+00:39:07	Emiliano Silva:	yo le di un estilo super básico al final y unos chiches nada mas como para que sea algo lindo
+00:39:07	Lautaro Mejias:	claro, yo me referia porque dijo unas 50 líneas en el HTML pero se me agrego un poco de mas por los links de bootstrap
+00:39:11	[Tutora] Diana Mottura:	Replying to "yo me mame, y use bo..."
+
+está bien, se puede usar bootstrap
+00:39:32	Lautaro Mejias:	aahh okaa
+00:39:34	Lautaro Mejias:	gracias
+00:39:43	Pedro Rivero:	El Javascript que le meti funcionaba bien, pero no llegue con todas las funciones de ecommerce que queria
+00:40:01	Pedro Rivero:	sisi eso si
+00:40:22	Nahuel Pérez:	profe yo
+00:40:25	Emiliano Silva:	donde deje mi celular?
+00:40:39	Nahuel Pérez:	tenia que ser tal cual todas las funciones de un e comerce? porque estoy por entregar
+00:41:01	Nahuel Pérez:	y tengo ponele la función de agregar al carrito, o de agregar un nuevo producto a la lista de productos
+00:41:05	Emiliano Silva:	por ahí andara lo escucho pero ni idea donde esta jajaja
+00:41:17	Nahuel Pérez:	la segunda fue la que mas costo
+00:41:41	Nahuel Pérez:	nono, esta completa pero pensé que era mas
+00:41:45	[Tutora] Diana Mottura:	Recuerden que nosotros no tenemos acceso a habilitar entregas vencidas. Si no terminan hoy, entreguen igual antes de que se venza, así no pierden la coderbeca
+00:42:12	Franco Stagnoli:	Replying to "donde deje mi celula..."
+
+yo me pregunte lo mismo el sábado en un recital y ya no lo volvi a ver
+00:42:15	Emiliano Silva:	vamos nomas
+00:42:25	[Tutora] Diana Mottura:	Replying to "donde deje mi celula..."
+
+el knotfest?
+00:42:33	Franco Stagnoli:	Replying to "donde deje mi celula..."
+
+see
+00:42:37	[Tutora] Diana Mottura:	Reacted to "see" with 💯
+00:42:52	Leon Machuca:	fuera de tiempo
+00:42:54	Dan Bao:	que no sucede al mismo tiempo
+00:43:05	Diego Navarro Tuero:	promesas
+00:43:08	Valentin Sierra:	coder en vivo es sincronico
+00:43:21	[Tutora] Diana Mottura:	Reacted to "coder en vivo es sin..." with 👍
+00:44:51	Dan Bao:	espero
+00:44:55	Oscar Díaz:	Empiezan a preparar el pedido
+00:44:57	Diego Navarro Tuero:	sos feliz
+00:44:59	Diego Navarro Tuero:	jajaj
+00:45:17	Dan Bao:	sigo esperando
+00:45:18	Dan Bao:	xd
+00:45:27	Dan Bao:	mas pedidos
+00:45:27	Oscar Díaz:	Se hacen colas de pedidos
+00:45:28	Gabriel Veras:	Le toman el pedido a otro
+00:46:09	Emiliano Silva:	los pedidos salen del mas rápido al mas lento sin orden
+00:46:10	Diego Navarro Tuero:	automac
+00:46:12	Dan Bao:	automac
+00:46:15	Dan Bao:	casi automac
+00:47:48	Gabriel Veras:	Si
+00:47:49	Matias Patiño:	si si
+00:47:49	Oscar Díaz:	Si
+00:47:50	Emiliano Silva:	si que si
+00:47:50	Pedro Rivero:	👍
+00:47:52	Dan Bao:	👍
+00:48:14	Emiliano Silva:	estaba pensando en eso jaja un examen
+00:48:30	Valentin Sierra:	todos se copian
+00:49:13	Valentin Sierra:	nao nao
+00:49:13	Dan Bao:	viniste corto de agua profe
+00:49:18	Leon Machuca:	👍🏻
+00:49:20	Emiliano Silva:	si si
+00:49:25	Dan Bao:	salud
+00:49:27	Pedro Rivero:	apagando el incendio
+00:49:35	Pedro Rivero:	😅
+00:49:57	Dan Bao:	single threaded?
+00:50:41	[Tutora] Diana Mottura:	Replying to "single threaded?"
+
+así funciona js, sí
+00:51:09	Dan Bao:	Reacted to "así funciona js, sí" with 👍
+00:51:24	Oscar Díaz:	Sip
+00:52:32	Leon Machuca:	a que sse refiere con thread?
+00:52:45	[Tutora] Diana Mottura:	Replying to "a que sse refiere co..."
+
+hilo, proceso
+00:53:12	Valentin Sierra:	como el twitter nuevo de instagram
+00:53:28	Profesor Coderhouse:	http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
+00:54:20	Esteban Jara:	Hola profe recién entro estoy terminando el tp ya lo entrego me costó un montón leer libros ver videos
+00:54:22	Oscar Díaz:	fijar un tiempo muerto
+00:54:25	Gabriel Veras:	Un timero o algo asi?
+00:54:29	Leon Machuca:	setear tiempo
+00:54:32	Diego Navarro Tuero:	setear tiempo de espera
+00:55:16	Gabriel Veras:	No
+00:55:16	Leon Machuca:	si
+00:55:18	Dan Bao:	poke api
+00:55:19	Dan Bao:	esa
+00:55:29	Dan Bao:	dummyjson
+00:56:02	Dan Bao:	que bien los creadores de eso, nos hacen mas fácil aprender
+00:56:07	Matias Patiño:	Es como pedir a una base de datos?
+00:56:46	Dan Bao:	mesero
+00:57:01	Dan Bao:	👍
+00:57:01	Matias Patiño:	sii
+00:57:07	Pedro Rivero:	👍
+00:57:28	Diego Navarro Tuero:	como conoces la url de la api
+00:57:38	Diego Navarro Tuero:	por ejemplo si queres sacar algo de afip
+00:57:42	Dan Bao:	https://dummyjson.com/products
+00:57:44	Dan Bao:	esta sirve?
+00:57:46	Diego Navarro Tuero:	ah ok
+00:58:34	Franco Stagnoli:	por ahora
+00:58:39	Esteban Jara:	El gob tiene api también siempre quise usarlas jaja
+00:58:41	Valentin Sierra:	que robemos al banco dice?
+01:00:07	Diego Navarro Tuero:	profe ando medio chicato hoy puede tirar un zoom un poco nomas
+01:00:25	Diego Navarro Tuero:	gracielas
+01:03:09	Dan Bao:	me hacen esperar al dope 🥲
+01:03:15	Valentin Sierra:	me da amsiedad
+01:03:41	Oscar Díaz:	Si
+01:03:43	Dan Bao:	y ahí se te van todos
+01:03:43	Dan Bao:	xd
+01:04:43	Pedro Rivero:	https://uiverse.io/loaders
+01:04:53	Profesor Coderhouse:	https://cssloaders.github.io/
+01:05:02	Valentin Sierra:	xS
+01:05:21	Valentin Sierra:	500 lineas de css
+01:05:22	Lautaro Mejias:	larguisimo el codigo
+01:05:26	Lautaro Mejias:	jajajajajaj
+01:05:27	Diego Navarro Tuero:	jajajajajaja
+01:05:39	Diego Navarro Tuero:	a few moments later
+01:05:50	Lautaro Mejias:	yo tengo el curso de react, esta bueno?
+01:05:54	Lautaro Mejias:	en unos dias
+01:06:33	Dan Bao:	Na si profe como usted decía
+01:06:35	Dan Bao:	esta re bueno
+01:06:35	Valentin Sierra:	jajjajajaa
+01:06:38	Pedro Rivero:	😂
+01:06:43	Lautaro Mejias:	JAJAJAJA
+01:06:51	Lautaro Mejias:	el gato te corto la grabacio
+01:07:02	Dan Bao:	como se llama?
+01:07:04	Dan Bao:	muy lindo
+01:07:07	Valentin Sierra:	se metio otro pejjelagarto
+01:07:12	Profesor Coderhouse:	Pelusa, Vampi, Bimbo
+01:07:17	[Tutora] Diana Mottura:	Reacted to "Pelusa, Vampi, Bimbo" with 🫶
+01:07:23	Pedro Rivero:	👍
+01:07:26	Lautaro Mejias:	si
+01:07:27	Oscar Díaz:	Sip
+01:07:51	Oscar Díaz:	En villa allende estaba Lorenzo Lomos eh
+01:08:26	Diego Navarro Tuero:	132
+01:08:28	Pedro Rivero:	1 y 3
+01:08:30	Pedro Rivero:	2
+01:08:31	Valentin Sierra:	primero, tecero y 2
+01:08:32	Dan Bao:	aparecen el primero el ultimo y dsp aparece el meido el otro
+01:08:35	Dan Bao:	para mi
+01:09:19	Oscar Díaz:	Si
+01:09:20	Lautaro Mejias:	sep
+01:09:36	Diego Navarro Tuero:	231
+01:09:38	Pedro Rivero:	2 3
+01:09:39	Pedro Rivero:	1
+01:09:42	Oscar Díaz:	Segundo, tercero, primero
+01:10:00	Oscar Díaz:	Van en orden
+01:10:01	Pedro Rivero:	13 2
+01:10:05	Diego Navarro Tuero:	123
+01:10:05	Valentin Sierra:	2, 1, 3
+01:10:07	Emiliano Silva:	no sale?
+01:10:20	Emiliano Silva:	sin segundos no trabaja
+01:10:20	Valentin Sierra:	no hay porque
+01:10:27	Dan Bao:	facultad
+01:10:32	Diego Navarro Tuero:	si timeout=0 es lo  mismo que hacerlo normal
+01:10:32	Pedro Rivero:	por que igual el settime out lo manda de ultimo
+01:10:36	Emiliano Silva:	sin segundos no trabaja
+01:10:40	Gabriel Veras:	No funciona porque hay que pasarle un valor en milisegundos diferente de cero
+01:10:43	Lautaro Mejias:	1,3,2 porque tiene el setTimeout y hace que espere sin importar el tiempo?
+01:11:04	[Tutora] Diana Mottura:	Siempre que sea una función asincrónica se va a ejecutar DESPUÉS de todo el código sincrónico
+01:11:05	Gabriel Veras:	aaaaaaaa
+01:11:08	Emiliano Silva:	por que?..... no hay por que
+01:11:13	Dan Bao:	Reacted to "por que?..... no hay..." with 🤣
+01:11:30	Diego Navarro Tuero:	ese cero mentiroso
+01:11:33	Dan Bao:	si va arriba del todo es lo mismo?
+01:11:39	[Tutora] Diana Mottura:	Replying to "si va arriba del tod..."
+
+si, da lo mismo
+01:11:50	[Tutora] Diana Mottura:	Replying to "si va arriba del tod..."
+
+js lee función asincrónica y se la lleva para ejecutar después del código sincrónico
+01:11:51	Dan Bao:	🤯
+01:11:56	Valentin Sierra:	ni ella me mintio tanto como ese cero
+01:11:58	Dan Bao:	Replying to "si va arriba del tod..."
+
+gracias
+01:12:05	Diego Navarro Tuero:	Reacted to "ni ella me mintio ta..." with 👏
+01:12:25	Diego Navarro Tuero:	pa jode XD
+01:12:46	Emiliano Silva:	🤯
+01:13:09	Oscar Díaz:	Nel
+01:13:09	Emiliano Silva:	mi mujer dice que no jaja
+01:13:18	Valentin Sierra:	nono
+01:13:45	Dan Bao:	contador
+01:14:26	Valentin Sierra:	un reloj
+01:14:31	Dan Bao:	🤯
+01:14:40	Oscar Díaz:	Más cronómetro que otra cosa
+01:14:41	Oscar Díaz:	Jaja
+01:14:57	Dan Bao:	tienes 3 intentos
+01:15:04	Pedro Rivero:	se le puede establecer un limite?
+01:15:05	Diego Navarro Tuero:	boooooooom
+01:15:06	Gabriel Veras:	FAAAAAAAAAAA
+01:15:10	Valentin Sierra:	explota
+01:15:11	Oscar Díaz:	Muere
+01:15:12	Lautaro Mejias:	-1
+01:15:13	Diego Navarro Tuero:	explota
+01:15:14	Gabriel Veras:	Pasa a negativo
+01:15:15	Dan Bao:	de nuevo
+01:15:16	Dan Bao:	arranca
+01:15:18	Pedro Rivero:	lo repite?
+01:15:20	Dan Bao:	aaa
+01:15:21	Dan Bao:	casi
+01:15:30	Oscar Díaz:	Hay que ponerle break?
+01:15:47	Valentin Sierra:	una condicion?
+01:17:01	Emiliano Silva:	córtale faltando 1 asi le pones suspenso y no explota
+01:17:47	Lautaro Mejias:	omg
+01:17:53	Valentin Sierra:	xd
+01:17:56	Emiliano Silva:	murimos todos
+01:18:01	Diego Navarro Tuero:	te falto el console.log("BOOOOM");
+01:18:39	Pedro Rivero:	si colocas el if dentro de la variable?
+01:19:00	Emiliano Silva:	listo no desactives bombas nunca por favor
+01:19:02	Dan Bao:	jajaja
+01:19:04	Dan Bao:	esta chistoso
+01:19:05	Dan Bao:	jajaja
+01:19:24	Oscar Díaz:	👏🏻
+01:19:24	Lautaro Mejias:	Reacted to "si colocas el if den..." with 👏
+01:19:24	Maximo Castro Braga:	Reacted to "si colocas el if den..." with 👏🏼
+01:19:25	Pedro Rivero:	jajaja
+01:19:29	Franco Stagnoli:	👏🏻
+01:19:33	Dan Bao:	epico
+01:19:40	Emiliano Silva:	buena pedrooooooo
+01:19:40	Valentin Sierra:	un aprobado
+01:19:40	Pedro Rivero:	😂
+01:19:42	Gabriel Veras:	Pasa el CBU pedro
+01:19:44	Dan Bao:	invita el profe
+01:19:47	Pedro Rivero:	lo tomare en cuenta
+01:19:47	Oscar Díaz:	Yo vivo en Córdoba, lo suplanto
+01:19:51	Dan Bao:	para los 44
+01:19:52	Pedro Rivero:	😅
+01:19:58	Valentin Sierra:	jajjajaja
+01:20:01	Oscar Díaz:	Ni en pedo jaja
+01:20:05	Dan Bao:	ajjaja el del append
+01:20:14	Lautaro Mejias:	este setInterval esta bueno
+01:21:22	Pedro Rivero:	Reacted to "Pasa el CBU pedro" with 😂
+01:22:20	Oscar Díaz:	El clásico 404 cuando pasa en web
+01:22:58	Diego Navarro Tuero:	ese no seria el famoso no responde desea esperar o volver a cargar??7
+01:23:33	Maximo Castro Braga:	el catch es tipo el alt de la img?
+01:23:59	Lautaro Mejias:	seria como tener un plan B el catch?
+01:24:15	Diego Navarro Tuero:	ah ok
+01:25:43	Valentin Sierra:	eaaa
+01:26:15	Emiliano Silva:	seria el error que aparece al costado cuando vemos la consola … el failure que aparece?
+01:26:40	[Tutora] Diana Mottura:	Replying to "seria el error que a..."
+
+eso lo podemos configurar ahí, sí, con console.error
+01:26:52	Emiliano Silva:	el failure seria el finaly
+01:27:19	Emiliano Silva:	Replying to "seria el error que a..."
+
+bien
+01:27:49	Emiliano Silva:	ok ok
+01:30:07	Oscar Díaz:	Instala adblock plus para evitar ese spam
+01:34:06	Gabriel Veras:	Una tarea pendiente
+01:34:06	Dan Bao:	prometer
+01:34:07	Dan Bao:	xd
+01:34:08	Dan Bao:	qsy
+01:34:11	Pedro Rivero:	esta esperando que le especifiques que pides?
+01:34:32	Emiliano Silva:	no lo quemeeee
+01:34:56	Gabriel Veras:	Jodeme que cantai
+01:35:08	Lautaro Mejias:	esta el programa en YouTube?
+01:35:09	Valentin Sierra:	decir que va a hacer algo en un tiempo X
+01:35:42	Dan Bao:	claro
+01:35:46	Gabriel Veras:	sacto!
+01:35:58	Diego Navarro Tuero:	no salgo mas! te lo prometo
+01:35:59	Diego Navarro Tuero:	XD
+01:36:23	Esteban Jara:	Típico de meteorólogo mentiroso
+01:36:25	Dan Bao:	Replying to "no salgo mas! te lo ..."
+
+no quería salir pero extraño a la afip
+01:36:27	Valentin Sierra:	nos prometes un asado en corodoba?
+01:37:08	Lautaro Mejias:	sip
+01:37:08	Valentin Sierra:	si
+01:37:12	Oscar Díaz:	sip
+01:37:13	Pedro Rivero:	👍
+01:38:11	Profesor Coderhouse:	THEN
+01:38:13	Oscar Díaz:	Entonces?
+01:38:13	Valentin Sierra:	entonces?
+01:38:14	Diego Navarro Tuero:	despues
+01:38:15	Gabriel Veras:	entocnes
+01:38:16	Emiliano Silva:	entonces
+01:39:10	Dan Bao:	va queriendo
+01:39:54	Dan Bao:	algo asi como objeto te lo trae
+01:39:59	Dan Bao:	facherazo
+01:40:11	Valentin Sierra:	no es el mismo JSON de stringify, o si?
+01:40:57	[Tutora] Diana Mottura:	Replying to "no es el mismo JSON ..."
+
+hay un solo json!
+01:41:13	Dan Bao:	🤯
+01:41:19	Lautaro Mejias:	fua
+01:41:26	[Tutora] Diana Mottura:	Replying to "no es el mismo JSON ..."
+
+json es un formato de texto
+01:41:42	[Tutora] Diana Mottura:	Replying to "no es el mismo JSON ..."
+
+las APIs se manejan con json igual que el storage
+01:41:46	Valentin Sierra:	Replying to "no es el mismo JSON ..."
+
+sisi, pero como es diferente. Uno es mayus y otro minus
+01:42:00	Valentin Sierra:	Replying to "no es el mismo JSON ..."
+
+ahh okok, thx
+01:42:59	Esteban Jara:	Entregué el trabajo 😫😫😫😫😴
+01:43:53	Pedro Rivero:	👍
+01:44:24	Lautaro Mejias:	aaahhh
+01:44:26	Emiliano Silva:	llega hasta ahi
+01:44:35	[Tutora] Diana Mottura:	Reacted to "Entregué el trabajo ..." with 🙌
+01:45:06	Emiliano Silva:	si si
+01:45:07	Lautaro Mejias:	por suerte no estoy acostumbrado al punto y coma jajajja
+01:45:07	Valentin Sierra:	sisi
+01:45:16	Lucca Herrera:	Si
+01:45:18	Lautaro Mejias:	dbz
+01:45:20	Oscar Díaz:	Belgrano
+01:45:21	Nahuel Pérez:	musica
+01:45:21	Valentin Sierra:	dbz
+01:45:21	Oscar Díaz:	Jajajaja
+01:45:22	Diego Navarro Tuero:	si, pero no la aplicacion
+01:45:30	Gabriel Veras:	dragonból
+01:45:33	Valentin Sierra:	ufff
+01:45:34	Lautaro Mejias:	ufff
+01:45:36	Esteban Jara:	Uuu
+01:45:42	Valentin Sierra:	soy yo con eso
+01:45:47	Pedro Rivero:	https://developer.themoviedb.org/docs/getting-started
+01:45:48	[Tutora] Diana Mottura:	daima?
+01:45:51	Valentin Sierra:	mi corazon encantado
+01:45:59	Oscar Díaz:	Super es la posta
+01:46:13	Esteban Jara:	Daima aún sin doblaje da paja leer te perdés todo jaja
+01:46:26	Valentin Sierra:	llega al capitulo 109 de super, y despues hablamos
+01:46:38	Oscar Díaz:	Reacted to "daima?" with 😱
+01:46:43	Dan Bao:	pasa link profe
+01:46:47	Profesor Coderhouse:	https://dragonball-api.com/api/characters
+01:46:49	Dan Bao:	gracias
+01:46:54	Dan Bao:	fetch
+01:46:55	Valentin Sierra:	fetch
+01:47:00	Dan Bao:	"
+01:47:01	Valentin Sierra:	api
+01:47:01	Dan Bao:	link
+01:47:03	Lautaro Mejias:	url
+01:47:04	Pedro Rivero:	url
+01:47:08	Dan Bao:	.then
+01:47:13	Dan Bao:	response
+01:47:20	Dan Bao:	=> response.json
+01:47:23	Dan Bao:	then
+01:47:23	Dan Bao:	data
+01:47:36	Lautaro Mejias:	console.table ponga profe para ver
+01:47:40	Dan Bao:	console.log data
+01:47:46	Lautaro Mejias:	oka
+01:48:41	Valentin Sierra:	naaa
+01:48:48	Lautaro Mejias:	omg
+01:48:54	Valentin Sierra:	bulma sin ki
+01:49:19	Lautaro Mejias:	sii
+01:49:22	Valentin Sierra:	sisi
+01:49:24	Lautaro Mejias:	quedo buenisimo
+01:49:26	Esteban Jara:	Sin ki y el sr bills le tiene miedo jaja
+01:49:45	Dan Bao:	y si queres traer solo nombres
+01:49:50	Dan Bao:	.ítems.nombre?
+01:49:56	Esteban Jara:	Podés hacer una pokédex de dbz
+01:51:50	Oscar Díaz:	👏🏻
+01:51:59	Lautaro Mejias:	🤯
+01:52:01	Valentin Sierra:	pone la imagen
+01:53:41	Gabriel Veras:	Falta Mr Satan
+01:53:42	Valentin Sierra:	😎
+01:53:48	Valentin Sierra:	hermoso el jiren
+01:53:59	Lautaro Mejias:	si lo pasaste
+01:54:09	Pedro Rivero:	👍
+01:54:12	[Tutora] Diana Mottura:	crack jaja
+01:54:13	Carlos Ocanto:	falta mr popo
+02:05:32	Esteban Jara:	Yo dejé todo el html comentado y me olvidé de borrar lo que usé de guía
+02:05:57	Emiliano Silva:	urgente vacaciones ya quiero que sea enero para el road trip de cada año
+02:06:12	Gabriel Veras:	Estamos acostumbrados a comentar porque el flaco que nos enseño HTML nos decia que comentemos banda
+02:06:15	[Tutora] Diana Mottura:	si vemos bloques de código comentados lo vamos a mencionar en la devolución como mala práctica, pero tampoco lo vamos a desaprobar por eso, no se preocupen
+02:06:55	Valentin Sierra:	ya hago un commit deshaciendo los comentarios
+02:07:26	Lautaro Mejias:	ilon mask como dijo maduro
+02:07:32	Valentin Sierra:	jajajajaj
+02:07:35	Lautaro Mejias:	JAJAJAJ
+02:08:08	Lautaro Mejias:	que mas queda aparte del async?
+02:08:09	Gabriel Veras:	Reacted to "si vemos bloques de ..." with 👍🏼
+02:08:26	Valentin Sierra:	peleado
+02:08:49	Emiliano Silva:	jamás lo hice ni lo volvere a hacer
+02:12:33	Diego Navarro Tuero:	async
+02:12:34	Gabriel Veras:	await
+02:12:35	Valentin Sierra:	await
+02:12:37	Dan Bao:	la de asincronica
+02:13:01	Dan Bao:	si esta async siempre tiene que estar await?
+02:13:09	Diego Navarro Tuero:	se me esta por fundir el motor
+02:13:22	Dan Bao:	van de la mano
+02:13:23	Dan Bao:	okay
+02:15:17	Diego Navarro Tuero:	no tenes catch
+02:15:32	Diego Navarro Tuero:	no
+02:15:35	Dan Bao:	aaa
+02:15:37	Dan Bao:	try
+02:15:39	Leon Machuca:	try
+02:15:43	Dan Bao:	eso
+02:16:59	Oscar Díaz:	Va
+02:17:38	Leon Machuca:	👍🏻
+02:18:11	Herman Paz:	nice
+02:18:37	Oscar Díaz:	Jorge JavaScript podría haber hecho más simples las cosas che jajaja
+02:18:37	Diego Navarro Tuero:	el async await no me gusto puedo quedarme con la primera
+02:19:15	Gabriel Veras:	😵‍💫
+02:19:17	Profesor Coderhouse:	Vamos bien o BAMOS VIEN?
+02:19:18	Lautaro Mejias:	bien
+02:19:24	[Tutora] Diana Mottura:	Reacted to "Vamos bien o BAMOS V..." with 😂
+02:19:28	Diego Navarro Tuero:	en mi cabeza con el primero se que fetcj tiene dos then y un catch y fue el otro mezcla mucho
+02:19:32	Diego Navarro Tuero:	en lo personal
+02:19:35	[Tutora] Diana Mottura:	Replying to "el async await no me..."
+
+el que más te guste!
+02:19:53	[Tutora] Diana Mottura:	Replying to "en mi cabeza con el ..."
+
+a mí también se me hace más sencillo fetch
+02:20:10	Dan Bao:	json
+02:20:14	Dan Bao:	creado x nosotros
+02:20:34	Valentin Sierra:	producto.json
+02:20:47	Dan Bao:	ejemplo, meter lo q compramos a una bolsa y dsp sacarlo y mostrarlo
+02:20:48	Esteban Jara:	Mercado libre tiene? Eso digo xq he visto páginas que tienen los productos de ML en sus páginas y carro igual etc
+02:22:09	[Tutora] Diana Mottura:	Replying to "Mercado libre tiene?..."
+
+tiene un montón de apis mercado libre
+02:22:32	[Tutora] Diana Mottura:	Replying to "Mercado libre tiene?..."
+
+cuando un sitio te manda a mercado pago, se conecta con la api de mp para eso
+02:25:33	Lautaro Mejias:	sip
+02:25:33	Dan Bao:	vava
+02:25:34	Valentin Sierra:	si
+02:25:38	Gabriel Veras:	se
+02:25:38	Oscar Díaz:	si
+02:25:39	Pedro Rivero:	👍
+02:26:58	Emiliano Silva:	yo la mande al carrito
+02:27:47	Valentin Sierra:	si
+02:27:51	Pedro Rivero:	👍
+02:27:52	Dan Bao:	si
+02:27:53	Lucca Herrera:	Si
+02:27:53	Emiliano Silva:	seria el css de js
+02:27:54	Gabriel Veras:	si
+02:27:55	Emiliano Silva:	si si
+02:27:56	Franco Stagnoli:	si
+02:28:13	Esteban Jara:	Así debemos crear toda la lista de productos desde ahora ?
+02:28:18	Dan Bao:	la ruta
+02:28:18	Valentin Sierra:	url
+02:28:25	Valentin Sierra:	en este caso la carpeta
+02:28:41	Lautaro Mejias:	el data.json es para tener tus productos?
+02:28:49	Emiliano Silva:	para que enlace la nueva carpeta
+02:28:50	Lautaro Mejias:	aaahhh
+02:28:52	Lautaro Mejias:	buenisimo
+02:28:55	Oscar Díaz:	Ahí va
+02:29:02	[Tutora] Diana Mottura:	Replying to "Así debemos crear to..."
+
+si hacen esto, ya cumplen con la consigna para la entrega final donde se pide el uso de trabajar con json externo
+02:29:32	Emiliano Silva:	error ajja
+02:29:37	Dan Bao:	es un .
+02:29:37	Dan Bao:	solo
+02:29:38	Diego Navarro Tuero:	//
+02:29:44	Emiliano Silva:	es un punto solo
+02:30:04	Emiliano Silva:	ese fue mi error cuando lo subi a GitHub y se rompió todo lo puse con dos .
+02:30:46	Lautaro Mejias:	porque no funcionaba, que le cambio?
+02:30:56	Emiliano Silva:	data.json funcionaria como la base de datos de la pagina
+02:31:05	Emiliano Silva:	???
+02:31:06	Lautaro Mejias:	ahh okey
+02:31:32	Dan Bao:	cree un json con productos ya soy full stack
+02:32:00	Oscar Díaz:	si
+02:32:00	Valentin Sierra:	jajja podes ser full stack sin saber backend
+02:32:13	Emiliano Silva:	en tu cara Back end jajaa
+02:32:16	Pedro Rivero:	gente consegui esto por si sirve, transforma csv a json es un golazo para los ecommerce https://csvjson.com/
+02:33:13	Lautaro Mejias:	si
+02:33:15	Valentin Sierra:	si
+02:33:27	Valentin Sierra:	setTimerOut?
+02:33:28	Pedro Rivero:	settime
+02:33:32	Diego Navarro Tuero:	settimeout
+02:33:33	Oscar Díaz:	Con el settime
+02:34:10	Lautaro Mejias:	oaaaa
+02:34:16	Lautaro Mejias:	tremendo
+02:34:17	Oscar Díaz:	😱
+02:34:36	Emiliano Silva:	exceso de oaaaaaa
+02:34:36	Dan Bao:	quiero hacer axios yo xd
+02:35:20	Dan Bao:	try
+02:35:23	Dan Bao:	catch
+02:35:23	Valentin Sierra:	catch
+02:35:31	Lautaro Mejias:	y finally
+02:35:34	Valentin Sierra:	finallyboss
+02:35:57	Valentin Sierra:	la function?
+02:35:57	Dan Bao:	apa
+02:35:58	Oscar Díaz:	Cortar el settime
+02:36:03	Dan Bao:	mostra code
+02:36:08	Oscar Díaz:	Ah no dije nada
+02:36:18	Valentin Sierra:	llamarla
+02:36:22	Diego Navarro Tuero:	llamarla
+02:36:36	Dan Bao:	🤯🤯🤯🤯
+02:36:38	Valentin Sierra:	yo soi ilon musk
+02:36:50	Lautaro Mejias:	seep
+02:36:52	Pedro Rivero:	👍
+02:36:56	Dan Bao:	Hasta el lunes voy a crear una empresa
+02:36:56	Dan Bao:	xd
+02:37:15	Valentin Sierra:	Replying to "xd"
+
+ajjajajajajja se tu propio jefe
+02:37:15	Esteban Jara:	La tendré que ver de nuevo xq estuve la primera parte con el tp
+02:38:00	Lautaro Mejias:	es el super final boss LVL 100
+02:38:10	[Tutora] Diana Mottura:	En el canal de mi tutoría les dejé un notion con notas sobre la segunda entrega y solo 14 veces se hizo click en el link. Revisen el chat! Porque ahí detallé lo que no se puede hacer que son errores comunes en todas las comisiones
+02:38:12	Lautaro Mejias:	sip
+02:38:38	Esteban Jara:	Profe y para  el usuario suba cosas a la lista de productos si tiene una cuenta se hace con json también?
+02:39:35	Esteban Jara:	Ahah
+02:39:51	Diego Navarro Tuero:	no
+02:39:51	Gabriel Veras:	Cif
+02:39:53	Emiliano Silva:	algo
+02:39:55	Pedro Rivero:	no
+02:39:56	Lautaro Mejias:	yo escuche
+02:39:56	Lautaro Mejias:	poco
+02:40:15	Diego Navarro Tuero:	no entendí como meto el fetch a la todo list
+02:40:15	Pedro Rivero:	👏
+02:40:22	Lautaro Mejias:	para todo lo que es administro re bien el tiempo
+02:40:30	Valentin Sierra:	javascript tendria que ser full vivo 100%
+02:41:25	Diego Navarro Tuero:	ok
+02:41:35	Esteban Jara:	Consulta en mi tp use algo de media query en Stylos aún me falta desarrollar, se cuenta la manera de ver??
+02:41:38	Valentin Sierra:	pero si, re bien administrado el tiempo con las clases
+02:41:46	[Tutora] Diana Mottura:	Replying to "Consulta en mi tp us..."
+
+no evaluamos estilos
+02:42:16	Lautaro Mejias:	jajajajajaj
+02:42:19	Diego Navarro Tuero:	😂
+02:42:39	Gabriel Veras:	Dice el taladro que "entendio todo"
+02:42:42	Diego Navarro Tuero:	saludos!
+02:42:45	Oscar Díaz:	Buenas noches gente
+02:42:48	Lucca Herrera:	Buenas noches profe, nos vemos la semana que viene
+02:42:49	[Tutora] Diana Mottura:	nos vemos gente! qué tengan una linda semana :)
+02:42:55	[Tutora] Diana Mottura:	genio  Lucas como siempre, alta clase!
+02:42:56	Gabriel Veras:	Buenas noches!
+02:42:56	Maximo Castro Braga:	Nos vemos! Muchas gracias
+02:42:56	Pedro Rivero:	bueas noches gente feliz semana
+02:42:58	Emiliano Silva:	lito nos vemos cualquier cosa consulto por mensaje abrazos a todos
+02:42:59	Lautaro Mejias:	gracias profes a los doss!!
+02:43:00	Karina Muñoz:	Chau!
+02:43:01	Valentin Sierra:	nosvemos

@@ -401,16 +401,15 @@ ul{
     .footerContainer button{
         width: 45px;
         height: 45px;
-        border-radius: 100%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         border:none;
+        background-color: transparent;
     }
 
     .footerContainer svg{
         width: 25px;
         height: 25px;
         color: black;
-        background-color: white;
+        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
     }
 
 
