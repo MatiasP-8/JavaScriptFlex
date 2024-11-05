@@ -45,19 +45,34 @@ if(productosEnElCarrito){
 }
 
 
-botonVaciarCarrito.addEventListener('click', vaciar);
-
+botonVaciarCarrito.addEventListener('click', () => {
+    Swal.fire({
+      title: "Estas seguro?",
+      text: "Se eliminaran todos los productos!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Eliminar!"
+    }).then((result) => {
+      if (result.isConfirmed) {
+          Swal.fire({
+              title: "OK!",
+              text: "Se eliminaron los productos del carrito",
+              icon: "success"
+            });
+        }
+    });
+    vaciar();
+  });
 //Funcion para vaciar el carrito
 
 function vaciar (){
-
     productosEnElCarrito.length = 0;
     localStorage.setItem('productos-carrito',JSON.stringify(productosEnElCarrito));
 
 }
 
-
-botonComprar.addEventListener('click',comprar);
 
 
 //Verifico que el carrito este vacio, si esta vacio saco los botones y muestro el total en 0 y el mensaje de 'Carrito vacio'

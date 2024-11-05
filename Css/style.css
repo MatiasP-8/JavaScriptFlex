@@ -314,10 +314,6 @@ ul{
         background-color: green;
         border: none;
         text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
-    }
-
-
-    .comprar a{
         font-family: 'onest', sans-serif;
         color: white;
         font-weight: 500;
@@ -332,15 +328,12 @@ ul{
         text-align: center;
         border: none;
         text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
-    }
-
-
-    .vaciarCarrito a{
         font-family: 'onest', sans-serif;
         color: white;
         font-weight: 500;
         text-decoration: none;
     }
+
 
     .popUp {
         display: none; 

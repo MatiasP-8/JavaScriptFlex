@@ -110,6 +110,19 @@ function agregarProducto(e){
     const productoCarrito = productos.find(producto => producto.idProducto === id); //Busco en productos, donde me coincidan los IDs
     
     if(productosAgregados.some(producto => producto.idProducto === id)){
+
+        Toastify({
+
+            text: "Producto agregado al carrito",
+            gravity: "bottom",
+            position: "right",
+            style: {
+                background: "green",
+                color: "white",
+              },
+            duration: 1000
+            
+            }).showToast();
        
         const index = productosAgregados.findIndex(producto => producto.idProducto === id);
 
