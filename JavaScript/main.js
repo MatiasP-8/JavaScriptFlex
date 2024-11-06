@@ -117,7 +117,7 @@ function agregarProducto(e){
             gravity: "bottom",
             position: "right",
             style: {
-                background: "green",
+                background: "#434349",
                 color: "white",
               },
             duration: 1000

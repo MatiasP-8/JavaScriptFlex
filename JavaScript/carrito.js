@@ -53,24 +53,28 @@ botonVaciarCarrito.addEventListener('click', () => {
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
-      confirmButtonText: "Eliminar!"
+      confirmButtonText: "Eliminar!",
+      cancelButtonText: "Cancelar",
     }).then((result) => {
       if (result.isConfirmed) {
           Swal.fire({
-              title: "OK!",
+              title: "Cerrar",
               text: "Se eliminaron los productos del carrito",
               icon: "success"
             });
+            vaciar()
         }
     });
-    vaciar();
   });
 //Funcion para vaciar el carrito
 
 function vaciar (){
     productosEnElCarrito.length = 0;
     localStorage.setItem('productos-carrito',JSON.stringify(productosEnElCarrito));
-
+    contenedorCarrito.innerHTML = '';
+    contenedorTotales.innerHTML = '';
+    botonVaciarCarrito.style.display = 'none';
+    botonComprar.style.display = 'none';
 }
 
 
@@ -82,11 +86,11 @@ function verificarCarrito(){
         botonVaciarCarrito.style.display = 'none';
         botonComprar.style.display = 'none';
         carritoVacio.style.display = 'block';
-        totalContenedor.style.display = 'none';
+        contenedorTotales.style.display = 'none';
     } else {
         botonVaciarCarrito.style.display = 'block'; 
         botonComprar.style.display = 'block'
-        totalContenedor.style.display = 'block';
+        contenedorTotales.style.display = 'block';
     }
 
 }
@@ -114,8 +118,15 @@ botonComprar.addEventListener('click', comprar);
 //Funcion para boton comprar-muestro el modal
 function comprar(e){
     e.preventDefault();
+    Swal.fire({
+        title: "Gracias por comprar en retro",
+        text: "Esperamos verte pronto!",
+        icon: "success",
+        confirmButtonText: "Cerrar"
+        
+      });
     vaciar();
-    popUp.style.display = 'block';
+    // popUp.style.display = 'block';
 }
 
 
