@@ -16,8 +16,8 @@ header{
 
 
 .logo img{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
     
 ul{
@@ -293,7 +293,7 @@ ul{
     }
 
     .totalContainer .total span{
-        color: goldenrod;
+        color: gray;
     }
 
 
@@ -334,61 +334,27 @@ ul{
         text-decoration: none;
     }
 
-
-    .popUp {
-        display: none; 
-        position: fixed;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        background-color: white;
-        border: 1px solid #ccc;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        z-index: 1000;
-        text-align: center;
-    }
-
-    .popUp p{
-        color: black;
-        font-size: 1rem;
-        font-family: 'Onest', sans-serif;
-        font-weight: 500;
-        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
-    }
-
-    .popUp button{
-        width: 250px;
-        height: 40px;
-        border-radius: 5px;
-        text-align: center;
-        background-color: green;
-        border: none;
-        text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
-    }
-    .popUp button a{
-        text-decoration: none;
-        color: white;
-    }
-
     
     .footerContainer{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 50px;
-        height: 100px;
+        gap: 0 50px;
         margin-top: 60px;
-        background-color:#f5f5f5 ;
+        /* background-color:#f5f5f5 ; */
     }
 
     .footerContainer .logosContainer{
-        width: 50%;
+        /* width: 50%; */
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 25px;
+        flex-direction: column;
+        position: fixed;
+        right: 30px;
+        bottom: 10px;
+        gap: 5px;
     }
 
     .footerContainer button{
@@ -398,48 +364,27 @@ ul{
         background-color: transparent;
     }
 
-    .footerContainer svg{
-        width: 25px;
-        height: 25px;
-        color: black;
-        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
-    }
-
-
-    #whatsapp{
-        color: darkgreen;
-    }
-
-    #instagram{
-        color: darkorchid;
-    }
-
-    #facebook{
-        color: darkblue;
-    }
-
     .infoFooterContainer{
-        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        gap: 0 25px;
     }
 
     .infoFooterContainer .titleFooter{
         font-family: 'onest',sans-serif;
         color: black;
-        font-weight: bold;
-        font-size: 1.5rem;
-        text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+        font-weight: 400;
+        font-size: .9rem;
+        /* text-shadow: 1px 2px 5px rgba(0,0,0,0.6); */
     }
 
 
     .infoFooterContainer .subtitleFooter{
         font-family: 'onest',sans-serif;
-        color: brown;
-        font-weight: 700;
-        font-size: 1.1rem;
+        color: black;
+        font-weight: 400;
+        font-size: .9rem;
         /* text-shadow: 1px 2px 5px rgba(0,0,0,0.6); */
     }
     
