@@ -1,0 +1,44 @@
+ [
+    {   "idProducto": "Producto 1",
+        "imagen":"./img/messiRetro.png",
+        "titulo": "Remera Lionel Messi retro",
+        "descripcion":"Descripcion",
+        "precio": 30000
+    },
+
+    {
+        "idProducto": "Producto 2",
+        "imagen":"./img/messi2.png",
+        "titulo": "Remera Lionel Messi retro",
+        "descripcion":"Descripcion",
+        "precio": 40000
+    },
+    {
+        "idProducto": "Producto 3",
+        "imagen":"./img/cristiano.png",
+        "titulo": "Remera ronaldo retro",
+        "descripcion":"Descripcion",
+        "precio": 10000
+    }, {
+        "idProducto": "Producto 4",
+        "imagen":"./img/inter.png",
+        "titulo": "Remera inter retro",
+        "descripcion":"Descripcion",
+        "precio": 20000
+
+    }, {
+        "idProducto": "Producto 5",
+        "imagen":"./img/arsenal.png",
+        "titulo": "Remera arsenal retro",
+        "descripcion":"Descripcion",
+        "precio": 20000
+    },
+    {
+        "idProducto": "Producto 6",
+        "imagen":"./img/kaka.png",
+        "titulo": "Remera kaka retro",
+        "descripcion":"Descripcion",
+        "precio": 30000
+    }
+
+]

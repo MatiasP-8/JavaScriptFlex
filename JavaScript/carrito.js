@@ -106,7 +106,7 @@ function actualizarTotal (){
     div.innerHTML = `
                   <p class="total">El total es: <span>$${calculadorTotal}</span> </p>
     `   ;
-    contenedorTotales.appendChild(div);
+    contenedorCarrito.appendChild(div);
     
 } 
 

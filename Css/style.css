@@ -168,32 +168,32 @@ ul{
 /*ESTILOS DEL CARRITO*/
 
 .carritoPrincipal{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 .carritoCardsContainer{
-    width: 60%;
-    margin: 60px 0;
+    width: 30%;
+    margin: 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .carritoCardsContainer h1{
     font-family: 'onest',sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 100;
     text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
+    margin: 25px 0;
 }
 
 .carritoContainer{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,16 +205,16 @@ ul{
 
 .carritoContainer .cardCarrito{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    border-top: 1px solid rgba(75, 69, 69, 0.4);
-    width: 70%;
-    margin: 8px 0;
+    /* border-top: 1px solid rgba(75, 69, 69, 0.4); */
+    width: 100%;
+    margin: 25px 0;
 }
 
 .carritoContainer .cardCarrito .imgProducto img{
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
 }
 
 .cantidadContainer{
@@ -231,32 +231,29 @@ ul{
 }
 
 .carritoContainer .cardCarrito .cardInfoContainer h3{
+        max-width: 90%;
         color: black;
-        font-size: 1.2rem;
+        font-size: .9rem;
         font-family: 'Onest', sans-serif;
         font-weight: 800;
-        text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
+        /* text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4); */
     }
     
     .carritoContainer .cardCarrito .cardInfoContainer .precio{
-        color: goldenrod;
-        font-size: 1rem;
+        color: gray;
+        font-size: .8rem;
         font-family: 'Onest', sans-serif;
         font-weight: bold;
     }
     
     .carritoContainer .cardCarrito .cardInfoContainer .descripcion{
-        color: black;
-        font-size: 1rem;
-        font-family: 'Onest', sans-serif;
-        font-weight: 500;
-        text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
+            display: none;
     }
 
     .carritoCardsContainer .carritoVacio{
         font-size: 2rem;
         font-family: 'onest',sans-serif;
-        font-weight: bold;
+        font-weight: 100;
         color: red;
         display: none;
     }
@@ -270,9 +267,8 @@ ul{
     .contenedorTotales{
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
-        text-align: center;
     }
 
 
@@ -288,8 +284,8 @@ ul{
     .total{
         font-family: 'onest',sans-serif;
         color: black;
-        font-weight: bold;
-        font-size: 2rem;
+        font-weight: 500;
+        font-size: 1.5rem;
     }
 
     .totalContainer .total span{
@@ -321,7 +317,7 @@ ul{
     }
 
     .vaciarCarrito{
-        width: 250px;
+        width: 180px;
         height: 40px;
         border-radius: 5px;
         background-color: red;

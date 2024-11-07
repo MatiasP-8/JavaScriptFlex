@@ -48,10 +48,10 @@ const productos = [
 const contenedorProductos = document.querySelector('#contenedorProductos'); //Div contenedor de las cards
 
 
-
-//Creo una funcion para cargar los productos en base al array de objetos que hice arriba
-function crearProductos(){
-    productos.forEach(producto => {
+fetch("./productos.json")
+.then(response => response.json())
+.then (data =>{
+    data.forEach(producto => {
         const div = document.createElement('div');
         div.classList.add('cards'); //Le agrego la clase card al div para usar los estilos de css
         div.innerHTML  = `
@@ -69,9 +69,33 @@ function crearProductos(){
         contenedorProductos.appendChild(div); //Agrego el div al contenedor en el padre
 
     });
+})
 
-}
-crearProductos(); 
+
+
+//Creo una funcion para cargar los productos en base al array de objetos que hice arriba
+// function crearProductos(){
+//     productos.forEach(producto => {
+//         const div = document.createElement('div');
+//         div.classList.add('cards'); //Le agrego la clase card al div para usar los estilos de css
+//         div.innerHTML  = `
+        
+//                         <img src="${producto.imagen}" alt="Imagen de Ropa"> 
+//                         <div class="cardInfoContainer">
+//                         <h3>${producto.titulo}</h3>
+//                         <p class="precio">$${producto.precio}</p>
+//                         <p class="descripcion">${producto.descripcion}</p>
+//                         <button class="buttonAgregar" id="${producto.idProducto}" >Agregar al carrito</button>
+//                     </div>
+
+//         `;
+
+//         contenedorProductos.appendChild(div); //Agrego el div al contenedor en el padre
+
+//     });
+
+// }
+// crearProductos(); 
 
 
 // funcion hover para desplegable de carrito
@@ -102,8 +126,6 @@ const botonAgregarProducto = document.getElementsByClassName('buttonAgregar');
 for (const boton of botonAgregarProducto) {
     boton.addEventListener('click', agregarProducto);
 }
-
-
 
 function agregarProducto(e){
     const id = e.currentTarget.id;
