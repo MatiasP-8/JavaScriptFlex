@@ -72,16 +72,16 @@ ul{
     color: black;
     font-size: 2.3rem;
     font-family: 'Onest', sans-serif;
-    font-weight: 700;
-    text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+    font-weight: 500;
+    /* text-shadow: 1px 2px 5px rgba(0,0,0,0.6); */
 }
 
 .parrafoSubtitulo{
     color: #434349;
     font-size: 1.2rem;
     font-family: 'Onest', sans-serif;
-    font-weight: bold;
-    text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
+    font-weight: 100;
+    /* text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4); */
 }
 
 .cardProductosContainer{
@@ -91,6 +91,7 @@ ul{
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 40px 10px;
 }
 
 .cardProductosContainer .cards{
@@ -117,17 +118,17 @@ ul{
 
 .cardProductosContainer .cards .cardInfoContainer h3{
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.02rem;
     font-family: 'Onest', sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
 }
 
 .cardProductosContainer .cards .cardInfoContainer .precio{
-    color: #434349;
+    color: #0a0a0a;
     font-size: 1rem;
     font-family: 'Onest', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
 }
 
@@ -145,12 +146,12 @@ ul{
     width: 200px;
     height: 40px;
     margin: 5px 0;
-    border-radius: 1px;
-    border: 1px solid #434349;
+    border-radius: 3px;
+    border: none;
     outline: none;
-    background-color: transparent;
+    background-color: #D9E7FA;
     font-family: 'onest', sans-serif;
-    color: #434349;
+    color: #3483FA;
     font-weight: 500;
     text-decoration: none;
     transition: .5s;
@@ -158,7 +159,7 @@ ul{
 
 .buttonAgregar:hover{
     scale: 1.01;
-    background-color: #434349;
+    background-color: #3483FA;
     color: white;
     font-weight: bold;
 }
@@ -175,13 +176,13 @@ ul{
     align-items: center;
 }
 .carritoCardsContainer{
-    width: 30%;
+    width: 50%;
     margin: 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
 }
 
 .carritoCardsContainer h1{
@@ -207,9 +208,11 @@ ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* border-top: 1px solid rgba(75, 69, 69, 0.4); */
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); 
     width: 100%;
+    height: 150px;
     margin: 25px 0;
+    border-radius: 5px;
 }
 
 .carritoContainer .cardCarrito .imgProducto img{
@@ -283,13 +286,13 @@ ul{
 
     .total{
         font-family: 'onest',sans-serif;
-        color: black;
+        color: #3483FA;
         font-weight: 500;
         font-size: 1.5rem;
     }
 
     .totalContainer .total span{
-        color: gray;
+        color: #3483FA;
     }
 
 
@@ -336,6 +339,7 @@ ul{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         gap: 0 50px;
         margin-top: 60px;
         /* background-color:#f5f5f5 ; */
@@ -382,6 +386,18 @@ ul{
         font-weight: 400;
         font-size: .9rem;
         /* text-shadow: 1px 2px 5px rgba(0,0,0,0.6); */
+    }
+
+    .mediosDePagoContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mediosDePagoContainer img{
+        margin: 15px ;
+        width: 50px;
+        height: 30px;
     }
     
 
@@ -496,7 +512,6 @@ ul{
         }
     
         .footerContainer .logosContainer{
-            width: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -527,4 +542,28 @@ ul{
             text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
             display: none;
         }
+
+        .mediosDePagoContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .mediosDePagoContainer img{
+            margin: 5px ;
+            width: 50px;
+            height: 30px;
+        }
+        .footerContainer .logosContainer{
+            /* width: 50%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            gap: 5px;
+        }
+        
     }

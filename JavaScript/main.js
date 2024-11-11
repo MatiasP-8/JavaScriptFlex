@@ -1,12 +1,13 @@
 
 const contenedorProductos = document.querySelector('#contenedorProductos'); //Div contenedor de las cards
-
+let productos = [];
 
 //Traigo los productos del json utilizando promesas
 
 fetch("./productos.json")
 .then(response => response.json())
 .then (data =>{
+     productos = data;
     data.forEach(producto => {
         const div = document.createElement('div');
         div.classList.add('cards'); //Le agrego la clase card al div para usar los estilos de css
@@ -24,8 +25,15 @@ fetch("./productos.json")
 
         contenedorProductos.appendChild(div); //Agrego el div al contenedor en el padre
 
+       // Asigno el event listener al botón "Agregar al carrito"
+    const botonAgregar = div.querySelector('.buttonAgregar');
+    console.log(botonAgregar); // Verifica que el botón se haya encontrado
+    botonAgregar.addEventListener('click', agregarProducto);
+
     });
+
 })
+
 
 
  
@@ -35,44 +43,41 @@ fetch("./productos.json")
 
 const productosAgregados = JSON.parse(localStorage.getItem('productos-carrito')) || [];
 
-// Agregar al carrito
-const botonAgregarProducto = document.getElementsByClassName('buttonAgregar');
-
-
-//Evento click para los botones Agregar
-for (const boton of botonAgregarProducto) {
-    boton.addEventListener('click', agregarProducto);
-}
 
 function agregarProducto(e){
     const id = e.currentTarget.id;
     const productoCarrito = productos.find(producto => producto.idProducto === id); //Busco en productos, donde me coincidan los IDs
     
-    if(productosAgregados.some(producto => producto.idProducto === id)){
 
-        Toastify({
+    if(productoCarrito){
 
-            text: "Producto agregado al carrito",
-            gravity: "bottom",
-            position: "right",
-            style: {
-                background: "#434349",
-                color: "white",
-              },
-            duration: 1000
-            
-            }).showToast();
-       
-        const index = productosAgregados.findIndex(producto => producto.idProducto === id);
-
-        productosAgregados[index].cantidad++;
-        //  cardModal.style.display = 'block';
-    }else{
-        productoCarrito.cantidad = 1;
-        //Agrego los productos al array productosAgregados
-        productosAgregados.push(productoCarrito);
-        //  cardModal.style.display = 'block';
+        if(productosAgregados.some(producto => producto.idProducto === id)){
+           
+            const index = productosAgregados.findIndex(producto => producto.idProducto === id);
+    
+            productosAgregados[index].cantidad++;
+            //  cardModal.style.display = 'block';
+        }else{
+            productoCarrito.cantidad = 1;
+            //Agrego los productos al array productosAgregados
+            productosAgregados.push(productoCarrito);
+            //  cardModal.style.display = 'block';
+        }
     }
+
+
+    Toastify({
+
+        text: "Producto agregado al carrito",
+        gravity: "bottom",
+        position: "right",
+        style: {
+            background: "#D9E7FA",
+            color: "#3483FA",
+          },
+        duration: 1000
+        
+        }).showToast();
 
 
     //Guardo los productos en localStorage

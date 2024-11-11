@@ -39,6 +39,27 @@
         "titulo": "Remera kaka retro",
         "descripcion":"Descripcion",
         "precio": 30000
+    },
+    {
+        "idProducto": "Producto 7",
+        "imagen":"./img/bocaRetro.png",
+        "titulo": "Remera Boca Jrs retro",
+        "descripcion":"Descripcion",
+        "precio": 10000
+    },
+    {
+        "idProducto": "Producto 8",
+        "imagen":"./img/riverRetro.png",
+        "titulo": "Remera River retro",
+        "descripcion":"Descripcion",
+        "precio": 40000
+    },
+    {
+        "idProducto": "Producto 9",
+        "imagen":"./img/centralRetro.png",
+        "titulo": "Remera Central retro",
+        "descripcion":"Descripcion",
+        "precio": 70000
     }
 
 ]
