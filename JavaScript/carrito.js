@@ -9,7 +9,8 @@ let botonVaciarCarrito = document.querySelector('#vaciarCarrito');
 let totalContenedor = document.querySelector('#totalContainer');
 const contenedorTotales = document.querySelector('#contenedorTotales');
 let botonComprar = document.querySelector('#comprar');
-let popUp = document.querySelector('#popUp')
+let formContainer = document.querySelector('#contenedorFormulario');
+
 
 
 //Muestro los productos del localStorage 
@@ -26,8 +27,8 @@ if(productosEnElCarrito){
                     <img src="${producto.imagen}" alt="${producto.titulo}">
                 </div>
                 <div class="cantidadContainer"> 
-                  <p>Cantidad</p>
-                  <p>${producto.cantidad}</p>
+                  <p class="cantidadTitle">Cantidad</p>
+                  <p class="cantidad">${producto.cantidad}</p>
                 </div>
                 <div class="cardInfoContainer">
                     <h3>${producto.titulo}</h3>
@@ -58,7 +59,7 @@ botonVaciarCarrito.addEventListener('click', () => {
     }).then((result) => {
       if (result.isConfirmed) {
           Swal.fire({
-              title: "Cerrar",
+              title: "Carrito vacio",
               text: "Se eliminaron los productos del carrito",
               icon: "success"
             });
@@ -75,6 +76,10 @@ function vaciar (){
     contenedorTotales.innerHTML = '';
     botonVaciarCarrito.style.display = 'none';
     botonComprar.style.display = 'none';
+    formContainer.style.display = 'none';
+    setTimeout(() => {
+        window.location.href = "index.html";
+    }, 3000);
 }
 
 
@@ -111,25 +116,47 @@ function actualizarTotal (){
 } 
 
 
-botonComprar.addEventListener('click', comprar);
+let formularioMostrado = false;
+
+botonComprar.addEventListener('click', ()=>{
+    if(!formularioMostrado){
+        comprar();
+        formularioMostrado = true;
+    }
+});
 
 
 
 //Funcion para boton comprar-muestro el modal
-function comprar(e){
+function comprar(){
+    const form = document.createElement("form");
+    form.innerHTML = `
+    <input id="nombre" class="input" type="text" placeholder="Nombre" required>
+    <input id="apellido" class="input" type="text" placeholder="Apellido" required>
+    <input id="mail" class="input" type="text" placeholder="Mail" required>
+    <input id="domicilio" class="input" type="text" placeholder="Domicilio" required>
+    <input id="telefono" class="input" type="number" placeholder="Telefono" required>
+    <button id="botonConfirmarCompra" type="submit"> Confirmar Compra </button>
+    `;
+    formContainer.appendChild(form);
+
+    const botonConfirmarCompra = document.querySelector("#botonConfirmarCompra");
+    
+    botonConfirmarCompra.addEventListener('click', confirmar);
+
+}
+
+
+
+
+function confirmar(e){
     e.preventDefault();
     Swal.fire({
         title: "Gracias por comprar en retro",
         text: "Esperamos verte pronto!",
         icon: "success",
         confirmButtonText: "Cerrar"
-        
-      });
-    vaciar();
-    // popUp.style.display = 'block';
+    
+   });
+   vaciar();
 }
-
-
-
-
-

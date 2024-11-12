@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'onest' ;
 }
+
 
 header{
     width: 100%;
@@ -208,11 +210,12 @@ ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); 
+    /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);  */
     width: 100%;
     height: 150px;
-    margin: 25px 0;
+    margin: 8px 0;
     border-radius: 5px;
+    border: 1px solid #D9E7FA;
 }
 
 .carritoContainer .cardCarrito .imgProducto img{
@@ -235,7 +238,7 @@ ul{
 
 .carritoContainer .cardCarrito .cardInfoContainer h3{
         max-width: 90%;
-        color: black;
+        color:#3483FA ;
         font-size: .9rem;
         font-family: 'Onest', sans-serif;
         font-weight: 800;
@@ -243,7 +246,7 @@ ul{
     }
     
     .carritoContainer .cardCarrito .cardInfoContainer .precio{
-        color: gray;
+        color: #81b3fa;
         font-size: .8rem;
         font-family: 'Onest', sans-serif;
         font-weight: bold;
@@ -251,6 +254,14 @@ ul{
     
     .carritoContainer .cardCarrito .cardInfoContainer .descripcion{
             display: none;
+    }
+
+    .cantidadTitle{
+        color: #3879E5;
+    }
+
+    .cantidad{
+        color: #81b3fa;
     }
 
     .carritoCardsContainer .carritoVacio{
@@ -276,6 +287,7 @@ ul{
 
 
     .totalContainer{
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -285,10 +297,17 @@ ul{
 
 
     .total{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
         font-family: 'onest',sans-serif;
         color: #3483FA;
         font-weight: 500;
         font-size: 1.5rem;
+        background-color: #D9E7FA;
     }
 
     .totalContainer .total span{
@@ -306,21 +325,31 @@ ul{
     }
 
     .comprar{
+        text-align: center;
         width: 250px;
         height: 40px;
-        border-radius: 5px;
-        text-align: center;
-        background-color: green;
+        margin: 5px 0;
+        border-radius: 3px;
         border: none;
-        text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
+        outline: none;
+        background-color: #D9E7FA;
         font-family: 'onest', sans-serif;
-        color: white;
+        color: #3483FA;
         font-weight: 500;
         text-decoration: none;
+        transition: .5s;
     }
+    
+    .comprar:hover{
+        scale: 1.01;
+        background-color: #3483FA;
+        color: white;
+        font-weight: bold;
+    }
+    
 
     .vaciarCarrito{
-        width: 180px;
+        width: 250px;
         height: 40px;
         border-radius: 5px;
         background-color: red;
@@ -331,6 +360,63 @@ ul{
         color: white;
         font-weight: 500;
         text-decoration: none;
+    }
+
+    .formContainer{
+        position: fixed;
+        top: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .formContainer form{
+        width: 35%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #ffff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        opacity: .99;
+    }
+
+    .formContainer form input{
+        width: 300px;
+        height: 50px;
+        border: 2px solid #D9E7FA;
+        border-radius: 5px;
+    }
+
+    input::placeholder{
+        padding: 5px;
+        color: #3879E5;
+        font-weight: 500;
+    }
+
+    form button{
+        text-align: center;
+        width: 300px;
+        height: 50px;
+        margin: 5px 0;
+        border-radius: 3px;
+        border: 1px solid #D9E7FA;
+        outline: none;
+        background-color: #D9E7FA;
+        font-family: 'onest', sans-serif;
+        color: #3483FA;
+        font-weight: 500;
+        text-decoration: none;
+        transition: .5s;
+    }
+
+    form button:hover{
+        background-color: #3483FA;
+        color: white;
     }
 
     
@@ -473,6 +559,8 @@ ul{
 
 .carritoContainer .cardCarrito{
     flex-direction: column;
+    width: auto;
+    height: auto;
 }
 
 .carritoContainer .cardCarrito .cardInfoContainer h3{
@@ -486,7 +574,7 @@ ul{
 
     .total{
 
-        font-size: 1.6rem;
+        font-size: 1.1rem;
     }
 
     .botones{
@@ -494,15 +582,15 @@ ul{
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 25px;
+        gap: 5px;
     }
 
     .comprar{
-        width: 150px;
+        width: 130px;
     }
 
     .vaciarCarrito{
-        width: 150px;
+        width: 130px;
     }
 
 
@@ -528,9 +616,12 @@ ul{
         .infoFooterContainer .titleFooter{
             font-family: 'onest',sans-serif;
             color: black;
-            font-weight: bold;
+            font-weight: 100;
             font-size: 1rem;
-            text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+        }
+
+        .infoFooterContainer .deco{
+            display: none;
         }
     
     
@@ -565,5 +656,31 @@ ul{
             bottom: 10px;
             gap: 5px;
         }
-        
+
+        .formContainer{
+            top: 130px;
+        }
+    
+        .formContainer form{
+            width: 95%;
+            height: 350px;
+        }
+    
+        .formContainer form input{
+            width: 250px;
+            height: 40px;
+
+        }
+    
+        input::placeholder{
+            font-weight: 200;
+        }
+    
+        form button{
+            width: 250px;
+            height: 40px;
+
+        }
+    
+
     }
