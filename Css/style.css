@@ -26,7 +26,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 20px 0;
     list-style: none;
 }
 
@@ -503,34 +503,57 @@ ul{
             align-items: center;
             flex-direction: column;
         }
-        
+
         .productosContainer .titleProductos{
-            margin: 50px 0 10px 0;
-            color: black;
             font-size: 2rem;
-            font-family: 'Onest', sans-serif;
-            font-weight: 700;
-            text-shadow: 1px 2px 5px rgba(0,0,0,0.6);
         }
         
         .parrafoSubtitulo{
-            color: brown;
-            font-size: .7rem;
-            font-family: 'Onest', sans-serif;
-            font-weight: bold;
-            text-shadow: 1px 2px 5px rgba(75, 69, 69, 0.4);
+            font-size: 1rem;
         }
         
         .cardProductosContainer{
             display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(1,1fr);
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2,1fr);
 
         }
+
+        .carritoContainer .cardCarrito{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);  */
+            width: 100%;
+            height: 150px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #D9E7FA;
+            gap: 0px;
+        }
+        
+
+        .cardProductosContainer .cards{
+           width: 200px;
+           height: 300px;
+       }
+
+       .cardProductosContainer .cards img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .cardProductosContainer .cards .cardInfoContainer{
+        margin: 0 5px;
+    }
+    
+    .cardProductosContainer .cards .cardInfoContainer h3{
+        font-size: 1rem;
+    }
         
         .cardProductosContainer .cards img{
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 180px;
         }
 
         .cardProductosContainer .cards .cardInfoContainer .descripcion{
@@ -540,7 +563,7 @@ ul{
         
         .buttonAgregar{
             text-align: center;
-            width: 150px;
+            width: 140px;
             height: 40px;
         }   
 
@@ -558,8 +581,8 @@ ul{
 
 .carritoContainer .cardCarrito{
     flex-direction: column;
-    width: auto;
-    height: auto;
+    width: 250px;
+    height: 300px;
 }
 
 .carritoContainer .cardCarrito .cardInfoContainer h3{

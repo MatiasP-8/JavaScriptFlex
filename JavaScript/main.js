@@ -2,7 +2,7 @@
 const contenedorProductos = document.querySelector('#contenedorProductos'); //Div contenedor de las cards
 let productos = [];
 
-//Traigo los productos del json utilizando promesas
+//Traigo los productos del json utilizando fetch
 
 fetch("./productos.json")
 .then(response => response.json())

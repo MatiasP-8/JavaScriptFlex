@@ -1,5 +1,4 @@
-# Entregable N2 de JavaScript Flex
-
+# Trabajo final JavaScript
 ## E-commerce venta de camisetas de futbol retro, donde se podra: 
  - Agregar productos al carrito.
  - Ver los productos en el carrito.
